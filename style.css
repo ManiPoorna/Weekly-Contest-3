@@ -1,0 +1,644 @@
+@import url('variable.css');
+*{
+    margin :0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+.title .title-name{
+    font-family: 'Ruda', serif;
+    font-weight : bold;
+    font-size: 21px !important;
+    letter-spacing: 3px;
+}
+/* *************NAVBAR*********** */
+.navbar{
+    background-color: #000;
+    color : white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+a{
+    text-decoration:none ;
+    color : white;
+}
+.nav-items{
+    font-family: 'Ruda', sans-serif;
+    color : white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+    gap : 50px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.socail{
+    color : white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    margin: 0px 30px;
+}
+.title{
+    margin-left: 30px;
+}
+.socail .so-item{
+    font-size: 20px;
+}
+/* ********************MAIN  SECTION************** */
+.main .pizza{
+    margin-top : 60px;
+    background-color: black;
+    background-image: url("./assets/pizza1\ 1.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.pizza p{
+    color : white;
+}
+.bg-title{
+    font-family: 'Quattrocento', serif;
+    font-size: 80px;
+    font-weight: 700;
+    padding: 100px 50px;
+    letter-spacing: 10px;
+}
+.bg-desc{
+    font-family: 'Ruda', sans-serif;
+    width: 35%;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 34px;
+    padding: 77px;
+    letter-spacing: 4px;
+    padding-bottom: 170px;
+    margin-top: -46px;
+}
+.underline{
+    width: 35%;
+    height: 14px;
+    background-color: #f24c4c;
+    border: none;
+    position: relative;
+    left: 60px;
+    top: -39px;
+}
+/* ******************ABOUT SECTION********************* */
+.about-us{
+    padding: 70px 0px;
+}
+.about-us .about, .menu .about{
+    font-family: 'Quattrocento', serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+.about-underline{
+    width: 35%;
+    height: 9px;
+    background-color: #b62828;
+    border: none;
+    position: relative;
+    left: 33%;
+    top : 10px;
+}
+.text-hr{
+    width: 33%;
+    height: 4px;
+    background-color: #f24c4c;
+    border: none;
+    position: relative;
+    left: 175px;
+    top: 80px;
+}
+.about-text{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.about-text p{
+    font-family: 'Ruda', sans-serif;
+    width: 37%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    position: relative;
+    left: 115px;
+    padding: 60px;
+}
+.about-text img{
+    margin-right: 140px;
+    width : 350px; 
+    height : 300px;
+}
+
+/* *******************MENU SECTION******************** */
+.menu .menu-underline{
+    width: 30%;
+    height: 9px;
+    background-color: #b62828;
+    border: none;
+    position: relative;
+    left: 35%;
+    top: 10px;
+}
+.menu-desc{
+    font-family: 'Ruda', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    width: 70%;
+    padding: 40px;
+    margin : 0px auto;
+}
+.menu-item {
+    display: flex;
+    max-width: 30%;
+    gap : 20px;
+}
+.text .heading{
+    font-family: 'Ruda', sans-serif;
+    font-size: 16px;
+    color : #f2c94c;
+    padding : 5px 0px;
+}
+.text .head-desc{
+    font-family: 'Ruda', sans-serif;
+    font-size: 14.2px;
+    padding : 10px 0px;
+    text-align: justify;
+    line-height: 25px;
+}
+.wrapper{
+    margin : 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap : wrap;
+    gap: 30px 50px;
+}
+.menu-item{
+    padding : 0px 50px;
+}
+.menu-img img{
+    height: 130px;
+    width: 200px;
+}
+
+/* ******************FIND US****************** */
+.wrap-2{
+    margin-top: 60px;
+}
+.wrap-2 img{
+    margin-right: 140px;
+    width: 420px;
+    height: 280px;
+}
+.find-wrap{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.wrap-1 .find-desc{
+    font-family: 'Ruda', sans-serif;
+    width: 51%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    position: relative;
+    left: 115px;
+    padding: 60px;
+}
+.find-location, .phone{
+    display: flex;
+}
+.find-us .menu-underline{
+    width: 30%;
+    height: 9px;
+    background-color: #b62828;
+    border: none;
+    position: relative;
+    left: 35%;
+    top: 10px;
+}
+.find-us{
+    margin-top: 80px;
+}
+.find-us-head{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+.find-location .location-logo {
+    margin-left: 179px;
+    font-size: 30px;
+    position: relative;
+    bottom: 8px;
+    font-weight: 700;
+}
+.loc-address{
+    font-family: 'Ruda', sans-serif;
+    padding-left: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.phone > p{
+    font-family: 'Ruda', sans-serif;
+}
+.ph-num{
+    font-family: 'Ruda', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin: 20px 23px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.phone .ph-logo{
+    margin-left: 179px;
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+    font-weight: 700;
+}
+/* ***********************FOOTER********** */
+.footer{
+    padding-top: 180px;
+    margin-right: 179px;
+}
+.email span{
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+}
+.email{
+    margin-left: 176px;   
+}
+.image img{
+    height: 250px;
+    position: relative;
+    left: 100px;
+    bottom: 65px;
+}
+.server{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-phone{
+    display: flex;
+    float: right;
+    margin-right: 92px;
+    padding-top: 30px;
+}
+.foot-phone .foot-ph-logo{
+    font-size: 35px;
+    margin-top: 12px;
+}
+.foot-phone .foot-ph-num{
+    font-family: 'Ruda', sans-serif;
+    padding: 0px 20px;
+}
+.email img{
+    width:40px; 
+    height:40px;
+}
+
+/* **********************MEDIA QUERIES************************** */
+@media screen and (max-width:1100px) {
+    /* HEADER */
+    .title {
+        margin-left: 10px;
+        font-size: -1px;
+    }
+    .title .title-name{
+        font-size: 12px !important;
+    }
+    .nav-items{
+        font-size: 14px;
+        gap : 20px;
+    }
+    .socail{
+        gap:21px;
+    }
+    /* MAIN SEC-1 */
+    .underline{
+        position: relative;
+        top: -64px;
+        width: 43%;
+    }
+    .bg-desc{
+        padding-bottom: 130px;
+        width: 40%;
+    }
+    /* MAIN SEC-2 */
+    .about-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+    }
+    .about-text p {
+        font-family: 'Ruda', sans-serif;
+        width: 70%;
+        font-size: 14px;
+        line-height: 32px;
+        position: relative;
+        left: 0px;
+        padding: 50px;
+    }
+    .text-hr{
+        width: 34%;
+        position: relative;
+        left: 134px;
+    }
+    .about-text img {
+        margin-right: 0px;
+    }
+    .menu-item {
+        display: flex;
+        min-width: 32%;
+        gap: 8px;
+    }
+    .menu-img img{
+        width:200px;
+        height:150px;
+    }
+    .text .heading{
+        font-size: 11px;
+        padding: 0px;
+    }
+    .text .head-desc {
+        font-family: 'Ruda', sans-serif;
+        font-size: 10px;
+        padding: 0px 0px;
+        text-align: left;
+        line-height: 17px;
+    }
+    .wrapper{
+        gap: 36px 21px;
+    }
+    /* MAIN SEC-3 */
+    .find-wrap {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 15px;
+        align-items: center;
+    }
+    .find-us .menu-underline {
+        width: 43%;
+        position: relative;
+        left: 29%;
+        top: 10px;
+    }    
+    .wrap-1 .find-desc{
+        width: 67%;
+        position: relative;
+        left: 100px;
+    }
+    .wrap-2 img {
+        margin-right: 0px;
+        width: 517px;
+        height: 309px;
+    }
+    .find-location {
+        display: flex;
+        margin-left: 0px auto;
+        margin-left: 70px;
+    }
+    /* FOOTER */
+    .footer {
+        padding-top: 153px;
+        margin-right: 65px;
+    }
+    .email {
+        margin-left: 0px;
+    }
+    .phone {
+        display: flex;
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width:880px) {
+    /* HEADER */
+    .title .title-name {
+        font-size: 14px !important;
+    }
+    .nav-items {
+        font-size: 10px;
+        gap: 22px;
+    }
+    .socail {
+        gap: 23px;
+    }
+    .social .icon{
+        font-size: 10px;
+    }
+    /* MAIN SEC-1 */
+    .bg-title {
+        font-size: 24px;
+        padding: 10px 11px;
+        letter-spacing: 2px;
+    }
+    .main .pizza {
+        background-size: cover;
+    }
+    .underline {
+        width: 35%;
+        height: 7px;
+        position: relative;
+        left: 14px;
+        top: 0px;
+    }    
+    .bg-desc {
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin-top: -62px;
+        line-height: 29px;
+        padding: 91px 17px;
+    }
+    .wrap-2 img {
+        margin-left: 35px;
+        width: 300px;
+        height: 200px;
+    }
+    .about-us .about{
+        font-size: 22px;
+    }
+    .about-underline {
+        width: 38%;
+        height: 6px;
+        position: relative;
+        left: 31%;
+    }
+    .text-hr {
+        width: 39%;
+        position: relative;
+        left: 64px;
+    }
+    .about-text img {
+        margin-right: 0px;
+        width: 218px;
+        height: 170px;
+    }
+    .about-text p {
+        font-size: 10px;
+        line-height: 22px;
+    }
+    /* MAIN SEC-2 */
+    .menu .menu-underline {
+        width: 38%;
+        height: 6px;
+        position: relative;
+        left: 31%;
+    }
+    .menu-desc{
+        font-size: 11px;
+        line-height: 28px;
+    }
+    .menu-item {
+        min-width: 66%;
+        gap: 18px;
+    }
+    .menu-img img {
+        width: 165px;
+        height: 98px;
+    }
+    .menu .about{
+        font-size: 22px;
+    }
+    /* MAIN SEC-3 */
+    .wrap-1 .find-desc {
+        width: 80%;
+        font-size: 10px;
+        position: relative;
+        left: 52px;
+        padding: 37px 0px;
+    }
+    .find-location .location-logo {
+        margin-left: 107px;
+        font-size: 26px;
+        bottom: 0px;
+    }
+    .find-us-head{
+        font-size: 22px;
+    }
+    .find-us .menu-underline {
+        width: 38%;
+        height: 6px;
+        position: relative;
+        left: 31%;
+    }
+    .phone{
+        margin-left: 0px;
+    }
+    .ph-num{
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .phone .ph-logo {
+        margin-left: 114px;
+        top: 27px;
+    }
+    .loc-address {
+        padding-left: 33px;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .find-location {
+        margin-left: 0px auto;
+        position: relative;
+        right: 65px;
+    }
+
+    /* FOOTER */
+    .image img {
+        height: 100px;
+        position: relative;
+        left: 42px;
+        bottom: 19px;
+    }
+    .email {
+        position: relative;
+        right: 59px;
+    }
+    .email span{
+        margin-right: 0px;
+        font-size: 10px;
+        position: relative;
+        left : 68px;
+    }
+    .foot-phone {
+        margin-right: -25px;
+        margin-left: 40px;
+    }
+    .foot-phone .foot-ph-num {
+        font-size: 10px;
+    }
+    .foot-phone .foot-ph-logo {
+        font-size: 21px;
+        margin-top: 6px;
+    }
+    .email img {
+        width: 27px;
+        height: 27px;
+    }
+    .email img {
+        margin-left: 36px;
+        position: relative;
+        left: 55px;
+        bottom: 5px;
+        width: 27px;
+        height: 27px;
+    }
+    .contact-total{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+    .image img {
+        height: 120px;
+        position: relative;
+        left: 17px;
+        bottom: 11px;
+    }
+    .server{
+        justify-content: space-around;
+    }
+}
+@media screen and(max-width:440px) {
+    .nav-items {
+        font-size: 6px;
+        gap: 8px;
+    }
+    .title .title-name {
+        font-size: 9px !important;
+    }
+    .socail {
+        gap: 5px;
+    }
+}
